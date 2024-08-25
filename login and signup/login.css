@@ -55,9 +55,6 @@ body{
   margin: 8px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
-.user:hover{
-  background-color: #50b8e7;
-}
 }
 .pass{
   width: 238px;

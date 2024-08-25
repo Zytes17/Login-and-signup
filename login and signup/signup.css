@@ -1,0 +1,66 @@
+body{
+  background: linear-gradient(rgb(132,205,238), rgb(185,226,245));
+  min-height:100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+}
+.container{
+  background-color: #50b8e7;
+  display: flex float;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 90px;
+  box-sizing: border-box;
+  height: 370px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+  background-color: skyblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  margin-top: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.button:hover{
+  opacity:0.8;
+}
+.button:active{
+  opacity:0.15s;
+}
+.fullname{
+  width: 230px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.pass{
+  width: 230px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.email{
+  width: 230px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.text{
+  color:white;
+}
+.account{
+  margin-top: 40px;
+}
